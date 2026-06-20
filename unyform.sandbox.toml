@@ -7,7 +7,7 @@ resources = "small"
 services = ["postgres", "redis"]
 
 [sandbox.postgres]
-template = "neon:local/sbx_tmpl"
+template = "neon:mute-heart-39788598/br-old-moon-adnvt9qw"
 env      = "DATABASE_URL"
 
 [sandbox.redis]
