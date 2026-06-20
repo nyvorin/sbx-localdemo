@@ -1,0 +1,13 @@
+[sandbox]
+runtime  = "node"
+setup    = "npm install"
+dev      = "node server.js"
+port     = 3000
+services = ["postgres", "redis"]
+
+[sandbox.postgres]
+template = "neon:local/sbx_tmpl"
+env      = "DATABASE_URL"
+
+[sandbox.redis]
+env      = "REDIS_URL"
