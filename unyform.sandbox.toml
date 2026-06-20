@@ -3,6 +3,7 @@ runtime  = "node"
 setup    = "npm install"
 dev      = "node server.js"
 port     = 3000
+resources = "small"
 services = ["postgres", "redis"]
 
 [sandbox.postgres]
